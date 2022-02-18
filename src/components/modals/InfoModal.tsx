@@ -1,5 +1,6 @@
 import { Cell } from '../grid/Cell'
 import { BaseModal } from './BaseModal'
+import React from 'react'
 
 type Props = {
   isOpen: boolean
@@ -10,7 +11,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
+        Guess the New Jersey-related word in 6 tries. After each guess, the color of the tiles will
         change to show how close your guess was to the word.
       </p>
 
@@ -18,43 +19,43 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="B"
           status="correct"
         />
         <Cell value="E" />
         <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="C" />
+        <Cell value="H" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter B is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
+        <Cell value="S" />
+        <Cell value="A" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="N"
           status="present"
         />
-        <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="D" />
+        <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        The letter N is in the word but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
+        <Cell value="H" />
+        <Cell value="O" />
+        <Cell value="R" />
+        <Cell isRevealing={true} isCompleted={true} value="S" status="absent" />
         <Cell value="E" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        The letter S is not in the word in any spot.
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">

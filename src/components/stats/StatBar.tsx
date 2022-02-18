@@ -5,6 +5,7 @@ import {
   CURRENT_STREAK_TEXT,
   BEST_STREAK_TEXT,
 } from '../../constants/strings'
+import React from 'react'
 
 type Props = {
   gameStats: GameStats

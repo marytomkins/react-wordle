@@ -1,5 +1,6 @@
 import { getGuessStatuses } from '../../lib/statuses'
 import { Cell } from './Cell'
+import React from 'react'
 
 type Props = {
   guess: string

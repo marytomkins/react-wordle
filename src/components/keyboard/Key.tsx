@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import React from 'react'
 import classnames from 'classnames'
 import { CharStatus } from '../../lib/statuses'
 import { MAX_WORD_LENGTH, REVEAL_TIME_MS } from '../../constants/settings'
