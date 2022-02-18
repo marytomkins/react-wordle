@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c1aad47.css",
-    "main.js": "/static/js/main.ae16a22e.js",
-    "static/js/787.b3f9d252.chunk.js": "/static/js/787.b3f9d252.chunk.js",
-    "static/media/background-photo-desktop.jpeg": "/static/media/background-photo-desktop.4ba11ba21de36710f7e0.jpeg",
-    "index.html": "/index.html",
-    "main.9c1aad47.css.map": "/static/css/main.9c1aad47.css.map",
-    "main.ae16a22e.js.map": "/static/js/main.ae16a22e.js.map",
-    "787.b3f9d252.chunk.js.map": "/static/js/787.b3f9d252.chunk.js.map"
+    "main.css": "/react-wordle/static/css/main.9c1aad47.css",
+    "main.js": "/react-wordle/static/js/main.ad32639f.js",
+    "static/js/787.b3f9d252.chunk.js": "/react-wordle/static/js/787.b3f9d252.chunk.js",
+    "static/media/background-photo-desktop.jpeg": "/react-wordle/static/media/background-photo-desktop.4ba11ba21de36710f7e0.jpeg",
+    "index.html": "/react-wordle/index.html",
+    "main.9c1aad47.css.map": "/react-wordle/static/css/main.9c1aad47.css.map",
+    "main.ad32639f.js.map": "/react-wordle/static/js/main.ad32639f.js.map",
+    "787.b3f9d252.chunk.js.map": "/react-wordle/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1aad47.css",
-    "static/js/main.ae16a22e.js"
+    "static/js/main.ad32639f.js"
   ]
 }
